@@ -1,0 +1,13 @@
+{
+    "name": "drupal/pacifica_api",
+    "description": "Pacifica REST API modules.",
+    "license": "LGPL-3.0",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "David Brown",
+            "email": "dmlb2000@gmail.com"
+        }
+    ],
+    "require": {}
+}
