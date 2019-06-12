@@ -1,26 +1,26 @@
 <?php
 
-namespace Drupal\Tests\pacifica_api\Functional;
+namespace Drupal\Tests\pacifica_uploader_api\Functional;
 
 use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests behavior for saving the pacifica api field elements.
  *
- * @group pacifica_api
+ * @group pacifica_uploader
  */
-class PacificaAPITest extends BrowserTestBase {
+class PacificaUploaderAPITest extends BrowserTestBase {
   /**
    * Modules to enable.
    *
    * @var array
    */
-  public static $modules = ['pacifica_api', 'node'];
+  public static $modules = ['pacifica_uploader_api', 'node'];
 
   /**
     * Basic test setup.
     */
-  public function testPacificaAPISave() {
+  public function testPacificaUploaderAPISave() {
     $storage = \Drupal::entityTypeManager()->getStorage('node');
     // Save a node programatically.
     $node = $storage->create([

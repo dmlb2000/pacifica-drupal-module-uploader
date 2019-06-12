@@ -1,2 +1,3 @@
-# pacifica-drupal-module-api
-Drupal module for interacting with Pacifica REST APIs
+# Pacifica Drupal Module for Uploading
+
+Drupal module for uploading data to Pacifica.

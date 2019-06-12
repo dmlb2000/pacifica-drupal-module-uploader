@@ -1,6 +1,6 @@
 {
-    "name": "drupal/pacifica_api",
-    "description": "Pacifica REST API modules.",
+    "name": "drupal/pacifica_uploader",
+    "description": "Pacifica uploader modules.",
     "license": "LGPL-3.0",
     "type": "drupal-module",
     "authors": [
